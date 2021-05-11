@@ -11,7 +11,7 @@ export const main = handler(async (event, context) => {
         // 'ExpressionAttributeValues' defines the value in the condition
         // - ':userId': defines 'userId' to be the id of the author
         ExpressionAttributeValues: {
-            ":usuarioId": "123",
+            ":usuarioId": event.requestContext.identity.cognitoIdentityId,
         },
     };
 

@@ -1,3 +1,8 @@
 {
-    "body": "{\"content\":\"Oi crush\",\"address\":\"fulano@gmail.com\"}"
+    "body": "{\"content\":\"OI crush 2\",\"address\":\"sicrano@gmail.com\"}",
+    "requestContext": {
+        "identity": {
+            "cognitoIdentityId": "USER-SUB-1234"
+        }
+    }
 }
